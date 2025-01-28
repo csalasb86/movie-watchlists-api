@@ -1,24 +1,73 @@
-# README
+# Movie Watchlists API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is a Proof of Concept (POC) for a Movie Watchlists API built using Ruby on Rails 8. It provides endpoints for managing users, movies, and watchlists.
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+- **User Management**: Create and manage user accounts.
+- **Movie Management**: Add, update, and delete movies in the database.
+- **Watchlist Management**: Allow users to create and manage their personal movie watchlists.
 
-* System dependencies
+## Requirements
 
-* Configuration
+- **Ruby Version**: 3.3.5
+- **Rails Version**: 8.0.1
+- **System Dependencies**: PostgreSQL
 
-* Database creation
+## Installation
 
-* Database initialization
+1. **Clone the Repository**:
 
-* How to run the test suite
+   ```bash
+   git clone https://github.com/csalasb86/movie-watchlists-api.git
+   cd movie-watchlists-api
+   ```
 
-* Services (job queues, cache servers, search engines, etc.)
+2. **Install Dependencies**:
 
-* Deployment instructions
+   ```bash
+   bundle install
+   ```
 
-* ...
+3. **Database Setup**:
+
+   ```bash
+   rails db:create
+   rails db:migrate
+   ```
+
+4. **Run the Application**:
+
+   ```bash
+   rails server
+   ```
+
+   Access the application at `http://localhost:3000`.
+
+## Configuration
+
+Provide any necessary configuration details here.
+
+## Testing
+
+To run the test suite:
+
+```bash
+rails test
+```
+
+## Deployment
+
+Instructions for deploying the application.
+
+## Contributing
+
+If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are welcome.
+
+## License
+
+Specify the license under which the project is distributed.
+
+## Contact
+
+For any inquiries or issues, please open an issue on the repository or contact the maintainer.
